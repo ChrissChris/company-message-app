@@ -16,7 +16,7 @@ import axios from "axios";
 export default {
   data() {
     return {
-      messages: ["hello", "hi", "its working"],
+      messages: ["hello", "hii", "its working"],
     };
   },
   async created() {
