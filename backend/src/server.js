@@ -13,7 +13,7 @@ app.get("/messages", (req, res) => {
   let msg = req.body;
   console.log(msg);
   messages.push(msg);
-  res.send(msg);
+  res.json(msg);
 });
 
 app.listen(port, () => console.log("app is connected"));
