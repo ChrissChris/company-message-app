@@ -17,6 +17,7 @@ export default {
 
   components: {
     Messages,
+    NewMessage,
   },
 
   data: () => ({
