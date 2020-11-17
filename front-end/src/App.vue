@@ -3,6 +3,7 @@
     <v-app-bar> </v-app-bar>
 
     <v-main>
+      <NewMessage />
       <Messages />
     </v-main>
   </v-app>
