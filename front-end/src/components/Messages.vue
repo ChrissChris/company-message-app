@@ -2,7 +2,7 @@
   <div>
     <h4 class="display-1">Messages</h4>
     <v-list>
-      <v-list-tile v-for="message in messages" @click="">
+      <v-list-tile v-for="message in messages" :key="message" @click="">
         <v-list-tile-content>
           <v-list-tile-title v-text="message"></v-list-tile-title>
         </v-list-tile-content>

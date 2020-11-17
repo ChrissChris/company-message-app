@@ -11,7 +11,7 @@
 
 <script>
 import NewMessage from "@/components/NewMessage";
-import Messages from "./components/Messages ";
+import Messages from "@/components/Messages ";
 
 export default {
   name: "App",
