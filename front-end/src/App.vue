@@ -1,6 +1,10 @@
 <template>
   <v-app>
-    <v-toolbar app> </v-toolbar>
+    <v-toolbar app>
+      <v-btn flat>Messages</v-btn>
+      <v-spacer />
+      <v-btn flat>Login</v-btn>
+    </v-toolbar>
 
     <v-content>
       <br />
