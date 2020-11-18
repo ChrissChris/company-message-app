@@ -5,7 +5,7 @@
         <v-toolbar-title>Messages</v-toolbar-title>
       </v-toolbar>
       <v-list>
-        <v-list-tile v-for="message in $store.state.messages" @click>
+        <v-list-tile v-for="message in $store.state.messages" :key="message">
           <v-list-tile-content>
             <v-list-tile-title v-text="message"></v-list-tile-title>
           </v-list-tile-content>
