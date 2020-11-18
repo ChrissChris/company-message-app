@@ -7,7 +7,7 @@ const port = 3000;
 app.use(cors());
 app.use(bodyParser.json());
 
-var messages = ["yes", "Hi", "messages"];
+var messages = ["yes", "Hi", "messages", "Hello"];
 
 app.get("/messages", (req, res) => {
   res.send(messages);
