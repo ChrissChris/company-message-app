@@ -16,8 +16,8 @@
 </template>
 
 <script>
-import Messages from "@/components/Messages";
-import NewMessage from "@/components/NewMessage";
+import Messages from "./components/Messages";
+import NewMessage from "./components/NewMessage";
 
 export default {
   name: "App",
