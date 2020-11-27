@@ -33,8 +33,8 @@ export default {
     async submit() {
       try {
         this.$store.dispatch("newMessage", this.messageBody);
-      } catch (error) {
-        console.error(error);
+      } catch (err) {
+        console.error(err);
       }
     },
   },
